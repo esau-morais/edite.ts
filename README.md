@@ -1,9 +1,10 @@
 <div align="center">
-  <img src="/images/Logo512.svg" alt="Edite">
+  <img src="./public/images/Logo512.svg" alt="Edite" width="96">
   <h1>Welcome to Edite repository</h1>
-  <strong>Your new PhotoShop</strong>
+  <strong>Your new Photoshop</strong>
   <h6>Made with ❤️  by Esaú Morais</h6>
 </div>
+<br>
 
 ## Edite
 
@@ -66,11 +67,11 @@ Before running, you need to setup the services required to run the Edite App.
 
 5. To finish, make sure to add and save:
 
-  5.1. Upload preset name
+    5.1. Upload preset name
   
-  5.2. Signing mode as _unsigned_
+    5.2. Signing mode as _unsigned_
 
-  5.3. Folder
+    5.3. Folder
 
 ### ⚛️  Setting Up Edite App
 
