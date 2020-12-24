@@ -1,0 +1,43 @@
+{
+  "Items": {
+    "One": "Início",
+    "Two": "Ferramentas",
+    "Three": "Comunidade"
+  },
+  "Button": "Teste agora",
+  "SectionOne": {
+    "Title": "Seu novo Photoshop",
+    "Description": "Uma forma simples de editar suas fotos e ficar satisfeito."
+  },
+  "SectionTwo": {
+    "Title": "Ferramentas simples fazem a diferença",
+    "Description": "Use ferramentas simples irão dar um efeito impressionante para suas fotos"
+  },
+  "Tools": {
+    "One": {
+      "Name": "Cortar",
+      "Description": "Corte sua parte favorita e redimensione."
+    },
+    "Two": {
+      "Name": "Texto",
+      "Description": "Adicione texto, edite o tamanho, cores, formato, e escolha uma boa fonte."
+    },
+    "Three": {
+      "Name": "Filtros",
+      "Description": "Coloque filtros em suas fotos e mude o humor."
+    },
+    "Four": {
+      "Name": "Atalhos",
+      "Description": "Use seu teclado para fazer o edição mais rápido"
+    },
+    "Five": {
+      "Name": "Configurações",
+      "Description": "Mude o idioma e tema para você ficar confortável."
+    }
+  },
+  "SectionThree": {
+    "Title": "Convide seus amigos",
+    "Description": "Compartilhe suas melhores tomadas com uma comunidade Discord incrivel",
+    "Button": "Junte-se"
+  }
+}

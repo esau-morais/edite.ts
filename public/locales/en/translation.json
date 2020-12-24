@@ -1,0 +1,43 @@
+{
+  "Items": {
+    "One": "Home",
+    "Two": "Tools",
+    "Three": "Community"
+  },
+  "Button": "Try now",
+  "SectionOne": {
+    "Title": "Your new Photoshop",
+    "Description": "A simple way to edit your photos and getting satisfied"
+  },
+  "SectionTwo": {
+    "Title": "Simple tools do the difference",
+    "Description": "Use simple tools that will give an awesome effect to your photos"
+  },
+  "Tools": {
+    "One": {
+      "Name": "Crop",
+      "Description": "Crop your favourite part of the photo or resize it."
+    },
+    "Two": {
+      "Name": "Text",
+      "Description": "Add text and edit its size, colors, shape, and choose a great font."
+    },
+    "Three": {
+      "Name": "Filter",
+      "Description": "Apply filters to your photos and change their mood."
+    },
+    "Four": {
+      "Name": "Shortcuts",
+      "Description": "Use your keyboard to make your editing process faster."
+    },
+    "Five": {
+      "Name": "Settings",
+      "Description": "Change the language and theme to make you comfortable."
+    }
+  },
+  "SectionThree": {
+    "Title": "Invite your friends",
+    "Description": "Share your best shots with an awesome Discord community",
+    "Button": "Join us"
+  }
+}

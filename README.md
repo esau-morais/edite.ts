@@ -1,70 +1,127 @@
-# Getting Started with Create React App
+<div align="center">
+  <img src="/images/Logo512.svg" alt="Edite">
+  <h1>Welcome to Edite repository</h1>
+  <strong>Your new PhotoShop</strong>
+  <h6>Made with ❤️  by Esaú Morais</h6>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Edite
 
-## Available Scripts
+> Your new Photoshop • A simple way to edit your photos and getting satisfied.
 
-In the project directory, you can run:
+* 🧭 **Mission:** Make the **users' job easier** on image editing, providing simple tools, but also effective.
+* 🔭 **Vision:** Incentive people to **explore** photo editing, making it easy and simple.
+* ⚖️  **Values:** Build in a **minimalist** way can also be effective.
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 📌 Try Edite
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Edite is current available for all browser (Chrome, Firefox, Edge, etc):
 
-### `yarn test`
+<p align="center">
+  <img src="./public/images/Official Banner.svg" alt="Edite">
+  <br>
+  <a href="https://editeapp.vercel.app"><strong>🚀 Try now</strong></a>
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️  Built with
 
-### `yarn build`
+* 🎨 **UI Design:** Figma
+* ⚛️  **Front-End:** React
+* 🌳 **Services:** Cloudinary
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Running Edite Locally
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Let's setup Edite locally, following up the setups below to quickly get started.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Before running, you need to setup the services required to run the Edite App.
 
-### `yarn eject`
+### ⚙️  Setting Up Services
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Create an account on [Cloudinary](https://cloudinary.com/) (or log in, if you already have one)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. After done with the first step, you'll be able to access the console:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<div align="center">
+  <img src="https://cloudinary-res.cloudinary.com/image/upload/f_auto,q_auto,c_scale/training/cloudinary-console-example.png" alt="Cloudinary console" width="550">
+  <br>
+  <small>Cloudinary console</small>
+</div>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+3. Get you API Url, clicking on the _More_ button:
 
-## Learn More
+<div align="center">
+  <img src="https://getcontenttools.com/images/pages/tutorials/image-uploads-with-cloudinary/account-details.png" alt="More button" width="550">
+  <br>
+  <small>More button to get API Url</small>
+</div>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Now, you just need to create a Upload preset. Go to _Settings_ (icon), then, the _Upload_ tab:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<div align="center">
+  <img src="https://support.cloudinary.com/hc/article_attachments/360023056072/upload-preset.png" alt="Upload presets" width="550">
+  <br>
+  <small>Upload presets page</small>
+</div>
 
-### Code Splitting
+5. To finish, make sure to add and save:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  5.1. Upload preset name
+  
+  5.2. Signing mode as _unsigned_
 
-### Analyzing the Bundle Size
+  5.3. Folder
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### ⚛️  Setting Up Edite App
 
-### Making a Progressive Web App
+1. Fork this project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Forking the project](https://camo.githubusercontent.com/6f03010c651d060f8b7cfc17da7098c1757c4ead/68747470733a2f2f6669727374636f6e747269627574696f6e732e6769746875622e696f2f6173736574732f526561646d652f666f726b2e706e67)
 
-### Advanced Configuration
+2. Clone the forked repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+    `git clone https://github.com/user/Edite` (if you use `git`)
 
-### Deployment
+    or
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+    `gh repo clone https://github.com/user/Edite` (if you use `gh` cli)
 
-### `yarn build` fails to minify
+3. Install the dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    `npm install` (if you use `npm`)
+
+    or
+
+    `yarn` (if you use   `yarn`)
+
+4. Start the project
+
+    `npm start` (if you `npm`)
+
+    or
+
+    `yarn start` (if you use `yarn`)
+
+## 🙌 Want to Contribute?
+
+You are more than welcome to contribute to all kinds of contributions:
+
+* 🤔 Request/Suggest a feature
+* 🐛 Report a bug
+* 📖 Make this documentation better
+* ‍💻 Contribute with the code
+
+Before start, we heavily recommend to check our [guidelines](./CONTRIBUTING.md).
+
+## ⭐ Rate Edite
+
+<p>
+  <a href="https://www.producthunt.com/posts/edite">
+    <img alt="Edite ProductHunt" align="center" src="https://img.shields.io/badge/producthunt-%23DA552F.svg?&style=for-the-badge&logo=product-hunt&logoColor=white" /></a>&nbsp; Rate Edite on ProductHunt
+</p>
+
+---
+
+## 📑 License
+
+Licensed by [MIT License](./LICENSE)
