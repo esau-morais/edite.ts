@@ -22,6 +22,8 @@ function Menu({ open, setOpen }) {
   // Toggler
   const hideItems = () => setOpen(false);
 
+  const redirectToApp = () => window.open('https://editeapp.vercel.app');
+
 
   return (
     <Items open={open}>
@@ -49,7 +51,7 @@ function Menu({ open, setOpen }) {
           <option value="en">En</option>
           <option value="pt">Pt</option>
         </select>
-        <Button>
+        <Button onClick={redirectToApp}>
           {t('Button')}
         </Button>
       </div>

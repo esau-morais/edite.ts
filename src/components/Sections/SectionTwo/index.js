@@ -9,12 +9,18 @@ import { HeadingTwo, Description, Button } from '../../index';
 function SectionTwo() {
   const { t } = useTranslation();
 
+  const redirectToApp = () => window.open('https://editeapp.vercel.app');
+
   return (
     <Section id="tools">
       <HeadingTwo>{t('SectionTwo.Title')}</HeadingTwo>
       <Description>{t('SectionTwo.Description')}</Description>
       <CardsList />
-      <Button>{t('Button')}</Button>
+      <Button
+        onClick={redirectToApp}
+      >
+        {t('Button')}
+      </Button>
     </Section>
   )
 }

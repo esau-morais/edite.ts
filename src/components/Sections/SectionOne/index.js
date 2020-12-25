@@ -9,6 +9,8 @@ const Preview = '/images/Window.png';
 function SectionOne() {
   const { t } = useTranslation();
 
+  const redirectToApp = () => window.open('https://editeapp.vercel.app');
+
   return (
     <Section id="home">
       {/* Row */}
@@ -17,7 +19,11 @@ function SectionOne() {
         <div className="sectionOne__column">
           <HeadingOne>{t('SectionOne.Title')}</HeadingOne>
           <Description>{t('SectionOne.Description')}</Description>
-          <Button>{t('Button')}</Button>
+          <Button
+            onClick={redirectToApp}
+          >
+            {t('Button')}
+          </Button>
         </div>
 
         {/* Right → Preview Video */}

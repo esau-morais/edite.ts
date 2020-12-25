@@ -7,11 +7,17 @@ import { HeadingTwo, Description, Button } from '../../index';
 function SectionThree() {
   const { t } = useTranslation();
 
+  const redirectToCommunity = () => window.open('https://discord.gg/hXTBQc2RFJ');
+
   return (
     <Section id="community">
       <HeadingTwo>{t('SectionThree.Title')}</HeadingTwo>
       <Description>{t('SectionThree.Description')}</Description>
-      <Button>{t('SectionThree.Button')}</Button>
+      <Button
+        onClick={redirectToCommunity}
+      >
+        {t('SectionThree.Button')}
+      </Button>
     </Section>
   )
 }
