@@ -88,6 +88,16 @@ const Global = createGlobalStyle`
   a:focus {
     outline: 1px dashed var(--primary-blue)
   }
+
+  // Spinner animations
+  @keyframes spinner-bounce {
+    0%, 80%, 100% {
+      transform: scale(0)
+    }
+    40% {
+      transform: scale(1)
+    }
+  }
 `;
 
 export default Global;
