@@ -2,7 +2,6 @@ import { useState } from 'react';
 // i18n
 import { useTranslation } from 'react-i18next';
 // Components (styles)
-import styled from 'styled-components';
 import { Items, Item } from './topBar.styles';
 import { Button } from '../index';
 

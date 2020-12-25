@@ -1,10 +1,10 @@
 // i18n
 import { useTranslation } from 'react-i18next';
-// Images
-import { ReactComponent as Preview } from '../../../assets/Window.svg';
 // Components (styles)
 import { Section } from './sectionOne.styles';
 import { HeadingOne, Description, Button } from '../../index';
+// Images
+const Preview = '/images/Window.png';
 
 function SectionOne() {
   const { t } = useTranslation();
@@ -22,7 +22,7 @@ function SectionOne() {
 
         {/* Right → Preview Video */}
         <div className="sectionOne__column">
-          <Preview />
+          <img src={Preview} alt="Edite Preview" />
         </div>
       </div>
     </Section>

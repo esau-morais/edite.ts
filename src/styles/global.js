@@ -36,7 +36,8 @@ const Global = createGlobalStyle`
     --secondary-background: #010101;
     --primary-foreground: #FFFFFF;
     --secondary-foreground: #F5F5F5;
-    --primary-blue: #18A0FB;
+    --primary-blue: #116df7;
+    --secondary-blue: #18a0fb;
     --primary-yellow: #F3DE1E;
     --box-shadow: drop-shadow(0 0 1.25rem rgba(24, 160, 251, 0.25));
 
@@ -66,7 +67,7 @@ const Global = createGlobalStyle`
     color: var(--secondary-foreground);
     transition: color .2s ease-in-out;
     &:hover {
-      color: var(--primary-blue)
+      color: var(--secondary-blue)
     }
   }
 

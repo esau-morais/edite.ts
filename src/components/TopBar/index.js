@@ -4,7 +4,6 @@ import { ReactComponent as Logo } from '../../assets/Logo.svg';
 import Burger from './burger';
 // Components (styles)
 import { Container } from './topBar.styles';
-import { Button } from '../index';
 
 function TopBar() {
   return (

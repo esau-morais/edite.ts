@@ -19,13 +19,16 @@ export const Section = styled.section`
     max-width: 50%
   }
 
-  div.sectionOne__column > svg {
+  div.sectionOne__column > img {
     // Size
     width: auto;
     height: 100%;
 
     // Colors
-    filter: var(--box-shadow)
+    filter: var(--box-shadow);
+
+    // Prevent the user to drag the image
+    pointer-events: none
   }
 
   @media screen and (max-width: 1200px) {
@@ -47,7 +50,7 @@ export const Section = styled.section`
         margin-bottom: var(--margin2x)
       }
       // Size
-      &:nth-child(2) > svg {
+      &:nth-child(2) > img {
         width: 100%
       }
     }
