@@ -1,5 +1,3 @@
-// Components (children)
-
 // Icons
 import { ReactComponent as Logo } from '../../assets/Logo.svg';
 import { ReactComponent as GitHub } from '../../assets/GitHub.svg';
@@ -35,6 +33,7 @@ function Footer() {
         <ul>
           <li>
             <a
+              aria-label="GitHub"
               href="http://github.com/Edite-App"
               target="_blank"
               rel="noreferrer"
@@ -44,6 +43,7 @@ function Footer() {
           </li>
           <li>
             <a
+              aria-label="Instagram"
               href="http://instagram.com/esau_morais/"
               target="_blank"
               rel="noreferrer"
@@ -53,6 +53,7 @@ function Footer() {
           </li>
           <li>
             <a
+              aria-label="Twitter"
               href="http://twitter.com/esau_morais/"
               target="_blank"
               rel="noreferrer"

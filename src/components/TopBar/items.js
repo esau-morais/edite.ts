@@ -28,7 +28,7 @@ function Menu({ open, setOpen }) {
   return (
     <Items open={open}>
       {/* Middle → Items */}
-      <div className="topBar__middle">
+      <ul className="topBar__middle">
         <Item onClick={hideItems}>
           <a href="#home">
             {t('Items.One')}
@@ -44,7 +44,7 @@ function Menu({ open, setOpen }) {
             {t('Items.Three')}
           </a>
         </Item>
-      </div>
+      </ul>
       {/* Right → Select & Button */}
       <div className="topBar__right">
         <select value={selectedValue} onChange={changeLanguage}>

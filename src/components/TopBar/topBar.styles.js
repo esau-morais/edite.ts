@@ -20,7 +20,7 @@ export const Container = styled.nav`
   // Default: row disposition
   // Items → Middle
   // Select & Button → Right
-  div.topBar__middle,
+  ul.topBar__middle,
   div.topBar__right {
     display: inherit;
     align-items: inherit;
@@ -46,7 +46,7 @@ export const Container = styled.nav`
     padding: var(--margin2x) var(--margin2x) 0 var(--margin2x);
 
     // After opened: column disposition
-    div.topBar__middle {
+    ul.topBar__middle {
       flex-direction: column
     }
   }
