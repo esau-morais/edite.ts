@@ -17,12 +17,14 @@
 
 ## 📌 Try Edite
 
-Edite is current available for all browser (Chrome, Firefox, Edge, etc):
+Edite is currently available just for Desktop browsers (Chrome, Firefox, Edge, etc.)
 
 <p align="center">
   <img src="./public/images/Official Banner.svg" alt="Edite">
   <br>
-  <a href="https://editeapp.vercel.app"><strong>🚀 Try now</strong></a>
+  <a href="https://editeapp.vercel.app">
+    <strong>🚀 Try now</strong>
+  </a>
 </p>
 
 ## 🛠️  Built with
@@ -112,7 +114,7 @@ You are more than welcome to contribute to all kinds of contributions:
 * 📖 Make this documentation better
 * ‍💻 Contribute with the code
 
-Before start, we heavily recommend to check our [guidelines](./CONTRIBUTING.md).
+Before start, we heavily recommend to check our [guidelines](https://github.com/Edite-App/.github/blob/main/CONTRIBUTING.md).
 
 ## ⭐ Rate Edite
 
