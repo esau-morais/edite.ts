@@ -20,9 +20,9 @@
 Edite is currently available just for Desktop browsers (Chrome, Firefox, Edge, etc.)
 
 <p align="center">
-  <img src="./public/images/Official Banner.png" alt="Edite">
+  <img src="./public/images/GitHub Banner.png" alt="Edite">
   <br>
-  <a href="https://editeapp.vercel.app">
+  <a href="https://editewebapp.vercel.app">
     <strong>🚀 Try now</strong>
   </a>
 </p>
