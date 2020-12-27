@@ -27,7 +27,11 @@ function Banner() {
         <Wrapper>
           <div>
             <ProductHunt />
-            <a href="https://www.producthunt.com/posts/edite">
+            <a
+              href="https://www.producthunt.com/posts/edite"
+              tagert="_blank"
+              rel="noopener noreferrer"
+            >
               {t('Banner')}
             </a>
           </div>

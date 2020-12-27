@@ -16,12 +16,12 @@
 
 ## 📌 Try Edite
 
-Edite is currently available just for Desktop browsers (Chrome, Firefox, Edge, etc.)
+Edite is currently available just for Desktop/Tablet browsers (Chrome, Firefox, Edge, etc.) in general to have a better experience.
 
 <p align="center">
   <img src="./public/images/GitHub Banner.png" alt="Edite">
   <br>
-  <a href="https://editewebapp.vercel.app">
+  <a href="https://edite.netlify.app">
     <strong>🚀 Try now</strong>
   </a>
 </p>
