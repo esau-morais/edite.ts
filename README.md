@@ -14,7 +14,6 @@
 * 🔭 **Vision:** Incentive people to **explore** photo editing, making it easy and simple.
 * ⚖️  **Values:** Build in a **minimalist** way can also be effective.
 
-
 ## 📌 Try Edite
 
 Edite is currently available just for Desktop browsers (Chrome, Firefox, Edge, etc.)
@@ -114,17 +113,26 @@ You are more than welcome to contribute to all kinds of contributions:
 * 📖 Make this documentation better
 * ‍💻 Contribute with the code
 
-Before start, we heavily recommend to check our [guidelines](https://github.com/Edite-App/.github/blob/main/CONTRIBUTING.md).
+Before start, it's heavily recommended to check Edite's [guidelines](https://github.com/Edite-App/.github/blob/main/CONTRIBUTING.md).
 
 ## ⭐ Rate Edite
 
 <p>
   <a href="https://www.producthunt.com/posts/edite">
-    <img alt="Edite ProductHunt" align="center" src="https://img.shields.io/badge/producthunt-%23DA552F.svg?&style=for-the-badge&logo=product-hunt&logoColor=white" /></a>&nbsp; Rate Edite on ProductHunt
+    <img alt="Edite ProductHunt" align="center" src="https://img.shields.io/badge/producthunt-%23DA552F.svg?&style=for-the-badge&logo=product-hunt&logoColor=white" />
+  </a> &nbsp; Checkout Edite on ProductHunt and give your feedback!
 </p>
+
+## 🎉 Acknowledgements
+
+It is a pleasure to mention [Daily.dev](https://daily.dev) organization as the head contributor to making this project documentation better.
+
+* [Daily.dev repository](https://github.com/dailydotdev/daily)
+* [Daily.dev default docs](https://github.com/dailydotdev/.github)
+* [Daily.dev Web app repository](https://github.com/dailydotdev/daily-webapp)
 
 ---
 
 ## 📑 License
 
-Licensed by [MIT License](./LICENSE)
+Distributed under the [MIT License](./LICENSE)
