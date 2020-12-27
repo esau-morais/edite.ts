@@ -62,6 +62,10 @@ const Global = createGlobalStyle`
     list-style: none // Remove list bullets
   }
 
+  button {
+    background-color: transparent
+  }
+
   a {
     text-decoration: none; // Remove underline
     color: var(--secondary-foreground);
