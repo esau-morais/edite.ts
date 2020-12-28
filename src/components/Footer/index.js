@@ -1,8 +1,8 @@
 // Icons
-import { ReactComponent as Logo } from '../../assets/Logo.svg';
-import { ReactComponent as GitHub } from '../../assets/GitHub.svg';
-import { ReactComponent as Instagram } from '../../assets/Instagram.svg';
-import { ReactComponent as Twitter } from '../../assets/Twitter.svg';
+import { ReactComponent as Logo } from 'assets/Logo.svg';
+import { ReactComponent as GitHub } from 'assets/GitHub.svg';
+import { ReactComponent as Instagram } from 'assets/Instagram.svg';
+import { ReactComponent as Twitter } from 'assets/Twitter.svg';
 // Components (styles)
 import { Container } from './footer.styles';
 import { Description } from '../index';

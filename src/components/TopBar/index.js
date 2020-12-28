@@ -1,5 +1,5 @@
 // Icons
-import { ReactComponent as Logo } from '../../assets/Logo.svg';
+import { ReactComponent as Logo } from 'assets/Logo.svg';
 // Components (child)
 import Burger from './burger';
 // Components (styles)

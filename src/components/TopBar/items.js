@@ -22,7 +22,7 @@ function Menu({ open, setOpen }) {
   // Toggler
   const hideItems = () => setOpen(false);
 
-  const redirectToApp = () => window.open('https://editeapp.vercel.app');
+  const redirectToApp = () => window.open('https://editeapp.netlify.app');
 
 
   return (

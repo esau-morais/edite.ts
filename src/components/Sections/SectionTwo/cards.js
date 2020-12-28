@@ -3,11 +3,11 @@ import { useTranslation } from 'react-i18next';
 // Components (children)
 import Card from './card';
 // Icons
-import { ReactComponent as Crop } from '../../../assets/Crop.svg';
-import { ReactComponent as Text } from '../../../assets/Text.svg';
-import { ReactComponent as Filter } from '../../../assets/Filter.svg';
-import { ReactComponent as Shortcuts } from '../../../assets/Shortcuts.svg';
-import { ReactComponent as Settings } from '../../../assets/Settings.svg';
+import { ReactComponent as Crop } from 'assets/Crop.svg';
+import { ReactComponent as Text } from 'assets/Text.svg';
+import { ReactComponent as Filter } from 'assets/Filter.svg';
+import { ReactComponent as Shortcuts } from 'assets/Shortcuts.svg';
+import { ReactComponent as Settings } from 'assets/Settings.svg';
 // Components (styles)
 import { Box } from './sectionTwo.styles.js';
 

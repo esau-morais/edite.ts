@@ -1,9 +1,9 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 // i18n
 import { useTranslation } from 'react-i18next';
 // Icons
-import { ReactComponent as ProductHunt } from '../../assets/PH.svg';
-import { ReactComponent as Close } from '../../assets/Close.svg';
+import { ReactComponent as ProductHunt } from 'assets/PH.svg';
+import { ReactComponent as Close } from 'assets/Close.svg';
 // Components (styles)
 import { Wrapper } from './banner.styles.js';
 
