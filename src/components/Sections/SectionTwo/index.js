@@ -9,7 +9,7 @@ import { HeadingTwo, Description, Button } from '../../index';
 function SectionTwo() {
   const { t } = useTranslation();
 
-  const redirectToApp = () => window.open('https://editeapp.vercel.app');
+  const redirectToApp = () => window.open('https://editeapp.netlify.app');
 
   return (
     <Section id="tools">

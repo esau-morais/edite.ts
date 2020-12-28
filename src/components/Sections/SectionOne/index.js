@@ -9,7 +9,7 @@ const Preview = '/images/Window.png';
 function SectionOne() {
   const { t } = useTranslation();
 
-  const redirectToApp = () => window.open('https://editeapp.vercel.app');
+  const redirectToApp = () => window.open('https://editeapp.netlify.app');
 
   return (
     <Section id="home">
