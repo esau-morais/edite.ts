@@ -1,7 +1,7 @@
 // Icons
 import { ReactComponent as Logo } from 'assets/Logo.svg';
 import { ReactComponent as GitHub } from 'assets/GitHub.svg';
-import { ReactComponent as Instagram } from 'assets/Instagram.svg';
+import { ReactComponent as Facebook } from 'assets/Facebook.svg';
 import { ReactComponent as Twitter } from 'assets/Twitter.svg';
 // Components (styles)
 import { Container } from './footer.styles';
@@ -43,12 +43,12 @@ function Footer() {
           </li>
           <li>
             <a
-              aria-label="Instagram"
-              href="http://instagram.com/esau_morais/"
+              aria-label="Facebook"
+              href="http://facebook.com/editeapp/"
               target="_blank"
               rel="noreferrer"
             >
-              <Instagram />
+              <Facebook />
             </a>
           </li>
           <li>

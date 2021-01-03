@@ -29,7 +29,7 @@ function Banner() {
             <ProductHunt />
             <a
               href="https://www.producthunt.com/posts/edite"
-              tagert="_blank"
+              target="_blank"
               rel="noopener noreferrer"
             >
               {t('Banner')}
