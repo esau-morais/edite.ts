@@ -64,46 +64,6 @@ Before running, you need to setup the services required to run the Edite App.
 
 💡 If you will not contribute to the Landing Page or try to learn how this service works, you can skip to the next section.
 
-#### Edite App
-
-👉 Edite uses Cloudinary services to upload presets.
-
-1. Create an account on [Cloudinary](https://cloudinary.com/) (or log in, if you already have one)
-
-2. After done with the first step, you'll be able to access the console:
-
-<div align="center">
-  <img src="https://cloudinary-res.cloudinary.com/image/upload/f_auto,q_auto,c_scale/training/cloudinary-console-example.png" alt="Cloudinary console" width="550">
-  <br>
-  <small>Cloudinary console</small>
-</div>
-
-3. Get you API Url, clicking on the _More_ button:
-
-<div align="center">
-  <img src="https://getcontenttools.com/images/pages/tutorials/image-uploads-with-cloudinary/account-details.png" alt="More button" width="550">
-  <br>
-  <small>More button to get API Url</small>
-</div>
-
-4. Now, you just need to create a Upload preset. Go to _Settings_ (icon), then, the _Upload_ tab:
-
-<div align="center">
-  <img src="https://support.cloudinary.com/hc/article_attachments/360023056072/upload-preset.png" alt="Upload presets" width="550">
-  <br>
-  <small>Upload presets page</small>
-</div>
-
-5. To finish, make sure to add and save:
-
-    5.1. Upload preset name
-  
-    5.2. Signing mode as _unsigned_
-
-    5.3. Folder
-
-⚠️  Remember to add the environment variables based on the [`env_sample`](https://github.com/Edite-App/Edite-Webapp/blob/main/.env_sample)
-
 ### ⚛️  Setting Up Edite App
 
 1. Fork this project
