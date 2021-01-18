@@ -37,6 +37,14 @@
     }
   },
   "SectionThree": {
+    "Question": {
+      "One": "Do I need to pay anything?"
+    },
+    "Answer": {
+      "One": "No. Edite still on its alpha-beta transition, but it will have two types of plans: free-forever and premium. In the meantime, all the features will be available to you as a gift"
+    }
+  },
+  "SectionFour": {
     "Title": "Invite your friends",
     "Description": "Share your best shots with an awesome Discord community",
     "Button": "Join us"

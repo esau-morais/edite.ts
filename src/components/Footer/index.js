@@ -1,17 +1,17 @@
 // Icons
-import { ReactComponent as Logo } from 'assets/Logo.svg';
-import { ReactComponent as GitHub } from 'assets/GitHub.svg';
-import { ReactComponent as Facebook } from 'assets/Facebook.svg';
-import { ReactComponent as Twitter } from 'assets/Twitter.svg';
+import { ReactComponent as Facebook } from "assets/Facebook.svg";
+import { ReactComponent as GitHub } from "assets/GitHub.svg";
+import { ReactComponent as Logo } from "assets/Logo.svg";
+import { ReactComponent as Twitter } from "assets/Twitter.svg";
+import { Description } from "../index";
 // Components (styles)
-import { Container } from './footer.styles';
-import { Description } from '../index';
+import { Container } from "./footer.styles";
 
 // Remove default margins
 const descriptionStyles = {
   marginTop: 0,
-  marginBottom: 0
-}
+  marginBottom: 0,
+};
 
 function Footer() {
   return (
@@ -23,9 +23,7 @@ function Footer() {
 
       {/* Middle → Copyright */}
       <div className="footer__middle">
-        <Description style={descriptionStyles}>
-          © EDITE 2020
-        </Description>
+        <Description style={descriptionStyles}>© EDITE 2020</Description>
       </div>
 
       {/* Right → Social media */}
@@ -64,7 +62,7 @@ function Footer() {
         </ul>
       </div>
     </Container>
-  )
+  );
 }
 
 export default Footer;

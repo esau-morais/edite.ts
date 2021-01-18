@@ -1,5 +1,5 @@
 // Components (styles)
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Container = styled.div`
   // Size
@@ -10,7 +10,6 @@ const Container = styled.div`
   display: flex;
   justify-content: space-between;
   text-align: center;
-
 
   // Bounces
   > div {
@@ -32,11 +31,11 @@ const Container = styled.div`
 
   // Bounce (delay between each animation)
   &:nth-child(1) {
-    animation-delay: -0.32s
+    animation-delay: -0.32s;
   }
 
   &:nth-child(2) {
-    animation-delay: -0.16s
+    animation-delay: -0.16s;
   }
 `;
 
@@ -47,7 +46,7 @@ function Spinner() {
       <div />
       <div />
     </Container>
-  )
+  );
 }
 
 export default Spinner;

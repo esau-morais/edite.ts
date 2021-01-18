@@ -1,15 +1,15 @@
 // i18n
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from "react-i18next";
+import { Button, Description, HeadingOne } from "../../index";
 // Components (styles)
-import { Section } from './sectionOne.styles';
-import { HeadingOne, Description, Button } from '../../index';
+import { Section } from "./sectionOne.styles";
 // Images
-const Preview = '/images/Window.png';
+const Preview = "/images/Window.png";
 
 function SectionOne() {
   const { t } = useTranslation();
 
-  const redirectToApp = () => window.open('https://editeapp.netlify.app');
+  const redirectToApp = () => window.open("https://editeapp.netlify.app");
 
   return (
     <Section id="home">
@@ -17,13 +17,9 @@ function SectionOne() {
       <div className="sectionOne__row">
         {/* Left → Content */}
         <div className="sectionOne__column">
-          <HeadingOne>{t('SectionOne.Title')}</HeadingOne>
-          <Description>{t('SectionOne.Description')}</Description>
-          <Button
-            onClick={redirectToApp}
-          >
-            {t('Button')}
-          </Button>
+          <HeadingOne>{t("SectionOne.Title")}</HeadingOne>
+          <Description>{t("SectionOne.Description")}</Description>
+          <Button onClick={redirectToApp}>{t("Button")}</Button>
         </div>
 
         {/* Right → Preview Video */}
@@ -32,7 +28,7 @@ function SectionOne() {
         </div>
       </div>
     </Section>
-  )
+  );
 }
 
 export default SectionOne;

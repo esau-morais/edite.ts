@@ -1,9 +1,9 @@
 // Icons
-import { ReactComponent as Logo } from 'assets/Logo.svg';
+import { ReactComponent as Logo } from "assets/Logo.svg";
 // Components (child)
-import Burger from './burger';
+import Burger from "./burger";
 // Components (styles)
-import { Container } from './topBar.styles';
+import { Container } from "./topBar.styles";
 
 function TopBar() {
   return (
@@ -14,7 +14,7 @@ function TopBar() {
       </div>
       <Burger />
     </Container>
-  )
+  );
 }
 
 export default TopBar;

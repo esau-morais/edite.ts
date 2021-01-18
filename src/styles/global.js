@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 const Global = createGlobalStyle`
   *,
@@ -89,6 +89,7 @@ const Global = createGlobalStyle`
   // Accessbility
   button:focus,
   select:focus,
+  summary:focus,
   a:focus {
     outline: 1px dashed var(--primary-blue)
   }

@@ -1,11 +1,12 @@
 // Components (children)
-import Banner from 'components/Banner';
-import TopBar from 'components/TopBar';
-import SectionOne from 'components/Sections/SectionOne';
-import SectionTwo from 'components/Sections/SectionTwo';
-import SectionThree from 'components/Sections/SectionThree';
-import Footer from 'components/Footer';
-import CustomerMessaging from 'components/CustomerMessaging';
+import Banner from "components/Banner";
+import CustomerMessaging from "components/CustomerMessaging";
+import Footer from "components/Footer";
+import SectionFour from "components/Sections/SectionFour";
+import SectionOne from "components/Sections/SectionOne";
+import SectionThree from "components/Sections/SectionThree";
+import SectionTwo from "components/Sections/SectionTwo";
+import TopBar from "components/TopBar";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <SectionOne />
       <SectionTwo />
       <SectionThree />
+      <SectionFour />
       <Footer />
       <CustomerMessaging />
     </>

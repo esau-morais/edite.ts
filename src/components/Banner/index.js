@@ -1,25 +1,21 @@
-import { useState } from 'react';
-// i18n
-import { useTranslation } from 'react-i18next';
+import { ReactComponent as Close } from "assets/Close.svg";
 // Icons
-import { ReactComponent as ProductHunt } from 'assets/PH.svg';
-import { ReactComponent as Close } from 'assets/Close.svg';
+import { ReactComponent as ProductHunt } from "assets/PH.svg";
+import { useState } from "react";
+// i18n
+import { useTranslation } from "react-i18next";
 // Components (styles)
-import { Wrapper } from './banner.styles.js';
+import { Wrapper } from "./banner.styles.js";
 
 function Banner() {
   // i18n
   const { t } = useTranslation();
   // Banner close button (persistence state)¹
-  const BANNER = 'banner_hidden';
-  const [banner, setBanner] = useState(
-    localStorage.getItem(BANNER) || 0
-  );
+  const BANNER = "banner_hidden";
+  const [banner, setBanner] = useState(localStorage.getItem(BANNER) || 0);
 
   // Persist hidden state on localStorage¹
-  const hideBanner = () => setBanner(
-    localStorage.setItem(BANNER, 1)
-  )
+  const hideBanner = () => setBanner(localStorage.setItem(BANNER, 1));
 
   return (
     <>
@@ -32,7 +28,7 @@ function Banner() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {t('Banner')}
+              {t("Banner")}
             </a>
           </div>
           <button onClick={hideBanner}>
@@ -41,7 +37,7 @@ function Banner() {
         </Wrapper>
       ) : null}
     </>
-  )
+  );
 }
 
 export default Banner;

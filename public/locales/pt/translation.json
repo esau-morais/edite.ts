@@ -37,6 +37,14 @@
     }
   },
   "SectionThree": {
+    "Question": {
+      "One": "Eu preciso pagar algo?"
+    },
+    "Answer": {
+      "One": "Não. Edite ainda está em sua transição alfa-beta, mas terá dois tipos de planos: free-forever e premium. Enquanto isso, todos os recursos estarão disponíveis para você como um presente"
+    }
+  },
+  "SectionFour": {
     "Title": "Convide seus amigos",
     "Description": "Compartilhe suas melhores tomadas com uma comunidade Discord incrivel",
     "Button": "Junte-se"

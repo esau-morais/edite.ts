@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
-// Components (child)
-import Menu from './items';
+import { useEffect, useState } from "react";
 // Components (styles)
-import styled from 'styled-components';
+import styled from "styled-components";
+// Components (child)
+import Menu from "./items";
 
 const Toggler = styled.div`
   // Size
@@ -31,14 +31,12 @@ const Toggler = styled.div`
     height: 0.25rem;
 
     // Colors
-    background-color: ${({ open }) => (
-      open ? "var(--primary-foreground)"
-           : "var(--secondary-foreground)"
-    )};
+    background-color: ${({ open }) =>
+      open ? "var(--primary-foreground)" : "var(--secondary-foreground)"};
 
     border-radius: var(--primary-border-radius);
     transform-origin: 1px;
-    transition: all .3s linear;
+    transition: all 0.3s linear;
 
     // Toggler lines disposition before/after opened
     &:nth-child(1) {
@@ -60,26 +58,23 @@ function Burger() {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
-     if (open) {
-      document.body.style.overflow = 'hidden';
+    if (open) {
+      document.body.style.overflow = "hidden";
     } else {
-      document.body.style.overflow = '';
+      document.body.style.overflow = "";
     }
   }, [open]);
 
   return (
     <>
-      <Toggler
-        open={open}
-        onClick={() => setOpen(!open)}
-      >
+      <Toggler open={open} onClick={() => setOpen(!open)}>
         <span />
         <span />
         <span />
       </Toggler>
       <Menu open={open} setOpen={setOpen} />
     </>
-  )
+  );
 }
 
 export default Burger;

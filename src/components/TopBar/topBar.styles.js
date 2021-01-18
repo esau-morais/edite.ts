@@ -84,7 +84,7 @@ export const Items = styled.ul`
 export const Item = styled.li`
   // Spacement
   margin-right: 2.25rem;
-  &:nth-child(3) {
+  &:nth-child(4) {
     margin-right: 0
   }
 

@@ -1,15 +1,15 @@
-import React, { Suspense } from 'react';
-import ReactDOM from 'react-dom';
-
-// i18n
-import i18n from './i18n';
-// Components (styles)
-import Global from './styles/global';
+import React, { Suspense } from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
 // Components (child)
-import Spinner from './components/Spinner';
-import App from './App';
+import Spinner from "./components/Spinner";
+import reportWebVitals from "./reportWebVitals";
+// i18n
+import i18n from "./i18n";
+// Components (styles)
+import Global from "./styles/global";
 
-import reportWebVitals from './reportWebVitals';
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,7 +18,7 @@ ReactDOM.render(
       <App />
     </Suspense>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function

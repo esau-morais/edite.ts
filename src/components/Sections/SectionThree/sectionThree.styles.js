@@ -1,21 +1,16 @@
 import styled from 'styled-components';
 
-export const Section = styled.section`
-  // Size
+export const Faq = styled.details`
   width: 100%;
+  padding: var(--margin2x);
 
-  // Spacement
-  padding: 0 var(--margin4x);
+  font: bold 1.25rem/1.5rem Montserrat;
 
-  // Display/Alignment → Center
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  border: 1px solid var(--secondary-blue);
+  border-radius: var(--primary-border-radius);
+  color: var(--primary-foreground);
 
-  @media screen and (max-width: 980px) {
-    // (Reduce) Spacement
-    padding: 0 var(--margin);
-
-    text-align: center
+  summary::-webkit-details-marker {
+    color: var(--secondary-blue)
   }
 `;
