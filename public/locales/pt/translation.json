@@ -38,10 +38,17 @@
   },
   "SectionThree": {
     "Question": {
-      "One": "Eu preciso pagar algo?"
+      "One": "Eu preciso pagar algo?",
+      "Two": "Por que estou enfrentando alguns problemas no Edite Web app?",
+      "Three": "Como posso relatar um problema ou ajudar com o Web app?"
     },
     "Answer": {
-      "One": "Não. Edite ainda está em sua transição alfa-beta, mas terá dois tipos de planos: free-forever e premium. Enquanto isso, todos os recursos estarão disponíveis para você como um presente"
+      "One": "Não. Edite ainda está em sua transição alfa-beta, mas terá dois tipos de planos: free-forever e premium. Enquanto isso, todos os recursos estarão disponíveis para você como um presente",
+      "Two": "Como o Edite ainda está em transição alfa-beta, alguns dos recursos podem não estar funcionando ou sendo construídas. Mas não se preocupe! Isso será resolvido o mais cedo possível",
+      "Three": "Edite tem um repositório GitHub com tudo sobre o Web app e você também pode ver como contribuir"
+    },
+    "Link": {
+      "Three": "aqui"
     }
   },
   "SectionFour": {

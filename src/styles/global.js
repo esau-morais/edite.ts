@@ -77,7 +77,8 @@ const Global = createGlobalStyle`
 
   a,
   button,
-  select {
+  select,
+  summary:first-child {
     cursor: pointer
   }
 
@@ -94,7 +95,7 @@ const Global = createGlobalStyle`
     outline: 1px dashed var(--primary-blue)
   }
 
-  // Spinner animations
+  // Animations
   @keyframes spinner-bounce {
     0%, 80%, 100% {
       transform: scale(0)
@@ -103,6 +104,16 @@ const Global = createGlobalStyle`
       transform: scale(1)
     }
   }
+  @keyframes faq-sweep {
+    0% {
+      opacity: 0;
+      margin-left: -10px
+    }
+    100% {
+      opacity: 1;
+      margin-left: 0px
+    }
+}
 `;
 
 export default Global;

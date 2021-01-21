@@ -38,10 +38,17 @@
   },
   "SectionThree": {
     "Question": {
-      "One": "Do I need to pay anything?"
+      "One": "Do I need to pay anything?",
+      "Two": "Why am I facing some problems on Edite Web app?",
+      "Three": "How can I report an issue or help with the Web app?"
     },
     "Answer": {
-      "One": "No. Edite still on its alpha-beta transition, but it will have two types of plans: free-forever and premium. In the meantime, all the features will be available to you as a gift"
+      "One": "No. Edite still on its alpha-beta transition, but it will have two types of plans: free-forever and premium. In the meantime, all the features will be available to you as a gift",
+      "Two": "As Edite still on its alpha-beta transition, some of the features can be not working or still being built. But don't worry! It'll be solved ASAP",
+      "Three": "Edite has a GitHub repository with everything about the Web app and you can also see how to contribute"
+    },
+    "Link": {
+      "Three": "here"
     }
   },
   "SectionFour": {
