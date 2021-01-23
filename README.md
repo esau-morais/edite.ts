@@ -76,7 +76,7 @@ Before running, you need to setup the services required to run the Edite App.
 
     or
 
-    `gh repo clone https://github.com/user/Edite` (if you use `gh` cli)
+    `gh repo clone user/Edite` (if you use `gh` cli)
 
 3. Install the dependencies
 
@@ -84,15 +84,23 @@ Before running, you need to setup the services required to run the Edite App.
 
     or
 
-    `yarn` (if you use   `yarn`)
+    `yarn` (if you use `yarn`)
 
 4. Start the project
 
-    `npm start` (if you `npm`)
+    `npm run start` (if you use `npm`)
 
     or
 
     `yarn start` (if you use `yarn`)
+
+5. You can also check the tests
+
+    `npm run test` (if you use `npm`)
+    
+    or
+    
+    `yarn test` (if you use `yarn`)
 
 ## 🙌 Want to Contribute?
 
@@ -101,7 +109,7 @@ You are more than welcome to contribute to all kinds of contributions:
 * 🤔 Request/Suggest a feature
 * 🐛 Report a bug
 * 📖 Make this documentation better
-* ‍💻 Contribute with the code
+* 💻 Contribute with the code
 
 Before start, it's heavily recommended to check Edite's [guidelines](https://github.com/Edite-App/.github/blob/main/CONTRIBUTING.md).
 
