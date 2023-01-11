@@ -2,8 +2,7 @@
   "Banner": "Edite is on Product Hunt! Show your support.",
   "Items": {
     "One": "Home",
-    "Two": "Tools",
-    "Three": "Community"
+    "Two": "Tools"
   },
   "Button": "Try now",
   "SectionOne": {
@@ -50,10 +49,5 @@
     "Link": {
       "Three": "here"
     }
-  },
-  "SectionFour": {
-    "Title": "Invite your friends",
-    "Description": "Share your best shots with an awesome Discord community",
-    "Button": "Join us"
   }
 }

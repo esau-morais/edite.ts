@@ -23,7 +23,7 @@ function Footer() {
 
       {/* Middle → Copyright */}
       <div className="footer__middle">
-        <Description style={descriptionStyles}>© EDITE 2020</Description>
+        <Description style={descriptionStyles}>© EDITE 2020 - Present</Description>
       </div>
 
       {/* Right → Social media */}
@@ -32,7 +32,7 @@ function Footer() {
           <li>
             <a
               aria-label="GitHub"
-              href="http://github.com/Edite-App"
+              href="http://github.com/esau-morais/edite.js"
               target="_blank"
               rel="noreferrer"
             >
@@ -52,7 +52,7 @@ function Footer() {
           <li>
             <a
               aria-label="Twitter"
-              href="http://twitter.com/esau_morais/"
+              href="http://twitter.com/_3morais/"
               target="_blank"
               rel="noreferrer"
             >

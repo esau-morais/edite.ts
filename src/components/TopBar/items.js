@@ -37,9 +37,6 @@ function Menu({ open, setOpen }) {
         <Item onClick={hideItems}>
           <a href="#faq">FAQ</a>
         </Item>
-        <Item onClick={hideItems}>
-          <a href="#community">{t("Items.Three")}</a>
-        </Item>
       </ul>
       {/* Right → Select & Button */}
       <div className="topBar__right">

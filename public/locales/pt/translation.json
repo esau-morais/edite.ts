@@ -2,8 +2,7 @@
   "Banner": "Edite está no Product Hunt! Mostre seu apoio.",
   "Items": {
     "One": "Início",
-    "Two": "Ferramentas",
-    "Three": "Comunidade"
+    "Two": "Ferramentas"
   },
   "Button": "Teste agora",
   "SectionOne": {
@@ -50,10 +49,5 @@
     "Link": {
       "Three": "aqui"
     }
-  },
-  "SectionFour": {
-    "Title": "Convide seus amigos",
-    "Description": "Compartilhe suas melhores tomadas com uma comunidade Discord incrivel",
-    "Button": "Junte-se"
   }
 }
