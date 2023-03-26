@@ -42,28 +42,6 @@ Before running, you need to setup the services required to run the Edite App.
 
 #### Edite Landing Page
 
-👉 Edite uses Facebook Messenger Plugin for the customers messaging service.
-
-1. Go to [Facebook for Developers](https://developers.facebook.com/apps).
-
-    1.1. Click the "Create App" button.
-
-    1.2. Complete the app information.
-
-    1.3. To finish, click the "Create App" button.
-
-    1.4. With that, you'll be able to have an `App ID`.
-
-2. You also need to create a [Facebook Page](https://www.facebook.com/pages/creation/).
-
-    2.1. Complete the page information.
-
-    2.2. Then, you can find the `Page ID` at the end of the "About" page.
-
-⚠️  Remember to add the environment variables based on the [`env_sample`](./.env_sample)
-
-💡 If you will not contribute to the Landing Page or try to learn how this service works, you can skip to the next section.
-
 ### ⚛️  Setting Up Edite App
 
 1. Fork this project
@@ -72,35 +50,19 @@ Before running, you need to setup the services required to run the Edite App.
 
 2. Clone the forked repository
 
-    `git clone https://github.com/user/Edite` (if you use `git`)
+    `git clone https://github.com/esau-morais/edite.ts` (if you use `git`)
 
     or
 
-    `gh repo clone user/Edite` (if you use `gh` cli)
+    `gh repo clone esau-morais/edite.ts` (if you use `gh` cli)
 
 3. Install the dependencies
 
-    `npm install` (if you use `npm`)
-
-    or
-
-    `yarn` (if you use `yarn`)
+    `pnpm i`
 
 4. Start the project
 
-    `npm run start` (if you use `npm`)
-
-    or
-
-    `yarn start` (if you use `yarn`)
-
-5. You can also check the tests
-
-    `npm run test` (if you use `npm`)
-    
-    or
-    
-    `yarn test` (if you use `yarn`)
+    `pnpm dev`
 
 ## 🙌 Want to Contribute?
 
