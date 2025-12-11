@@ -1,18 +1,18 @@
 // Icons
-import { ReactComponent as Facebook } from '@/assets/Facebook.svg'
-import { ReactComponent as GitHub } from '@/assets/GitHub.svg'
-import { ReactComponent as Logo } from '@/assets/Logo.svg'
-import { ReactComponent as Twitter } from '@/assets/Twitter.svg'
+import Facebook from "@/assets/Facebook.svg?react";
+import GitHub from "@/assets/GitHub.svg?react";
+import Logo from "@/assets/Logo.svg?react";
+import Twitter from "@/assets/Twitter.svg?react";
 
-import { Description } from '../index'
+import { Description } from "../index";
 // Components (styles)
-import { Container } from './footer.styles'
+import { Container } from "./footer.styles";
 
 // Remove default margins
 const descriptionStyles = {
   marginTop: 0,
   marginBottom: 0,
-}
+};
 
 const Footer = () => {
   return (
@@ -24,7 +24,9 @@ const Footer = () => {
 
       {/* Middle → Copyright */}
       <div className="footer__middle">
-        <Description style={descriptionStyles}>© EDITE 2020 - Present</Description>
+        <Description style={descriptionStyles}>
+          © EDITE 2020 - Present
+        </Description>
       </div>
 
       {/* Right → Social media */}
@@ -63,7 +65,7 @@ const Footer = () => {
         </ul>
       </div>
     </Container>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

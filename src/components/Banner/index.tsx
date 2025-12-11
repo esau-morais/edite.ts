@@ -1,26 +1,28 @@
-import { useState } from 'react'
-import { useTranslation } from 'react-i18next'
+import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
-import { ReactComponent as Close } from '@/assets/Close.svg'
+import Close from "@/assets/Close.svg?react";
 // Icons
-import { ReactComponent as ProductHunt } from '@/assets/PH.svg'
+import ProductHunt from "@/assets/PH.svg?react";
 // i18n
 
 // Components (styles)
-import { Wrapper } from './banner.styles.js'
+import { Wrapper } from "./banner.styles.js";
 
 const Banner = () => {
   // i18n
-  const { t } = useTranslation()
+  const { t } = useTranslation();
   // Banner close button (persistence state)¹
-  const BANNER = 'banner_hidden'
-  const [isBannerHidden, setIsBannerHidden] = useState<boolean>(() => JSON.parse(localStorage.getItem(BANNER) ?? 'false'))
+  const BANNER = "banner_hidden";
+  const [isBannerHidden, setIsBannerHidden] = useState<boolean>(() =>
+    JSON.parse(localStorage.getItem(BANNER) ?? "false"),
+  );
 
   // Persist hidden state on localStorage¹
   const hideBanner = () => {
-    localStorage.setItem(BANNER, JSON.stringify('true'))
-    setIsBannerHidden(true)
-  }
+    localStorage.setItem(BANNER, JSON.stringify("true"));
+    setIsBannerHidden(true);
+  };
 
   return (
     <>
@@ -33,7 +35,7 @@ const Banner = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {t('Banner')}
+              {t("Banner")}
             </a>
           </div>
           <button onClick={hideBanner}>
@@ -42,7 +44,7 @@ const Banner = () => {
         </Wrapper>
       ) : null}
     </>
-  )
-}
+  );
+};
 
-export default Banner
+export default Banner;

@@ -1,10 +1,10 @@
 // Icons
-import { ReactComponent as Logo } from '@/assets/Logo.svg'
+import Logo from "@/assets/Logo.svg?react";
 
 // Components (child)
-import Burger from './burger'
+import Burger from "./burger";
 // Components (styles)
-import { Container } from './topBar.styles'
+import { Container } from "./topBar.styles";
 
 const TopBar = () => {
   return (
@@ -15,7 +15,7 @@ const TopBar = () => {
       </div>
       <Burger />
     </Container>
-  )
-}
+  );
+};
 
-export default TopBar
+export default TopBar;
